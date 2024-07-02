@@ -1,0 +1,68 @@
+[
+  {
+    "username": "yaki",
+    "password": "$2a$08$EH.GiyjGDN2KTxzVMRQ78O5dCQsracD4MckwPJYf6kHzAim1oDFP2"
+  },
+  {
+    "username": "yaki",
+    "password": "$2a$08$xN1o2NpXW2P5y5pKP.vGneCVCH9Fi7MUN3GZy1BqZV9S9lQwt4r8."
+  },
+  {
+    "username": "yaki",
+    "password": "$2a$08$HVH85vkLXjQLo6B33yPBQ.s4xAFOs8BbOS7ZBZxC4Ae4AD78ntLYu"
+  },
+  {
+    "username": "yaki",
+    "password": "$2a$08$2yylCq2f3EmMXp1vCe6UTuSqWi2FO2IGr2Cm529YOtcFa47rYXfnm"
+  },
+  {
+    "username": "yaki",
+    "password": "$2a$08$k.uvNICIYEnSYx/G.71Wf.Bm9KpLph6kP6rAVDShEmTl97Yg5hxqq"
+  },
+  {
+    "username": "yaki",
+    "password": "$2a$08$oZM66JZdbamr4644ucdBR.pTysVj7Hmq3VCrQXX1x.yvF.4l1SPMW"
+  },
+  {
+    "username": "Donsufia1",
+    "password": "$2a$08$YKG36QfwlwkrQp9kK3foL.ui/0i.18nt/V9NL9U/B0K6WsxZCeZTK"
+  },
+  {
+    "username": "Omokop",
+    "password": "$2a$08$u8BFIlzs85AlSe.ZCFUhA.pqTPxhQTDaguwCzV5uBm6QK6KlGUs0K"
+  },
+  {
+    "username": "Donsufia",
+    "password": "$2a$08$27UvAuDeyb.3DJDoFKkSMOwxhn1bh3gsegtEr7abhD0s1qt8Aq7aG"
+  },
+  {
+    "username": "Don",
+    "password": "$2a$08$1nddv66qt2t/Z/Ow773KWe9EhAzWFVUrteDv1YXkWP9teglHTGi36"
+  },
+  {
+    "username": "admin",
+    "password": "$2a$08$zrk1rYNg9/Co0AnKHDnwquAjhDnNMlmHhpXp/owt0avm16m0.FroG"
+  },
+  {
+    "username": "Yaky",
+    "password": "$2a$08$2pE84gBcKVAd21/J7vzaQ.Vw0rxiOyzgt/YR0cBbAKMJ03j9zNFb6"
+  },
+  {
+    "username": "Dansufia",
+    "password": "$2a$08$/9KVQquF3koYdsILORy7DOdIgDmAI1YLT08.He0IJuzyFzcAYxhSi"
+  },
+  {
+    "username": "Mkpouto",
+    "password": "$2a$08$.25xdkX4RCVv0fW7T.HcuOjT6.EMHtveitI/ldnopVLVz7l0IXrAS",
+    "phoneNumber": "09062120092",
+    "email": "yakebogab@gmail.com"
+  },
+  {
+    "username": "udynath",
+    "password": "$2a$08$DDPhxIEmcd.Z1g8jyyV0ceSa.NmKb.boAqhu5FKOJfUOh5d3rn00y",
+    "firstName": "UduakObong",
+    "lastName": "Uwah",
+    "phoneNumber": "09012897789",
+    "email": "uwahuduakobong@gmail.com"
+  }
+]

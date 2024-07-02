@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      margin-top: 100px;
+    }
+    form {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+    .required-field::after {
+      content: "*";
+      color: red;
+      margin-left: 5px;
+    }
+    .text-center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="mb-4 text-center">Sign-up</h2>
+      <form action="/signup" method="POST" onsubmit="return validateForm()">
+        <div class="form-group">
+          <label for="firstName" class="required-field">First Name</label>
+          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter first name" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName" class="required-field">Last Name</label>
+          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter last name" required>
+        </div>
+        <div class="form-group">
+          <label for="email" class="required-field">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber" class="required-field">Phone Number</label>
+          <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+        </div>
+        <div class="form-group">
+          <label for="username" class="required-field">Username</label>
+          <input type="text" class="form-control" id="username" name="username" placeholder="Enter username" required>
+        </div>
+        <div class="form-group">
+          <label for="password" class="required-field">Password</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword" class="required-field">Confirm Password</label>
+          <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm password" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Sign-up</button>
+      </form>
+      <div class="text-center mt-3">
+        <p>Already have an account? <a href="/sign-in">Sign in</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function validateForm() {
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+    if (password !== confirmPassword) {
+      alert('Passwords do not match');
+      return false;
+    }
+    return true;
+  }
+</script>
+
+</body>
+</html>
+
+
+
